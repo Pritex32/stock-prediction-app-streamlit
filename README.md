@@ -1,4 +1,6 @@
 # Project Overview
+This project is a web-based application designed to predict stock prices using historical data. The app uses **LSTM (Long Short-Term Memory)** models for time-series forecasting and provides visual insights into stock trends.  
+# Result:
 This projects builds a Stock Price Prediction App using Streamlit and machine learning techniques. The app fetches historical stock price data for GBPUSD=X (British Pound to US Dollar exchange rate) and performs the following:
 
 Data Retrieval and Preprocessing:
@@ -22,4 +24,18 @@ Predicts stock prices for test data and inversely transforms them back to origin
 Generates a 60-day future forecast and visualizes the results.
 Interactive UI:
 
-Enables users to input stock IDs and view data, visualizations, predictions, and future forecasts directly in the app.# stock-prediction-app-streamlit
+Enables users to input stock IDs and view data, visualizations, predictions, and future forecasts directly in the app.
+# Data Scource:
+this dataset is from yahoo finance .com
+
+## Tools & Technologies  
+- **Python**  
+- **Streamlit**  
+- **yFinance**  
+- **TensorFlow/Keras**  
+- **Pandas**  
+- **NumPy**  
+- **Matplotlib**  
+- **Seaborn**  
+- **Scikit-learn**  
+- **Statsmodels**
